@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'date'
+            }
+        }
     }
 }
